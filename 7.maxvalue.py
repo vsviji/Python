@@ -5,7 +5,7 @@ def FindLargestElement(arr,n):
 	maxVal = arr[0]
 
 	for i in range(1, n):
-		if arr[i] > maxVal:
+		if arr[i] > maxVal: 
 			maxVal = arr[i]
 	return maxVal
 
